@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Sight</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="home_images/logo2.png" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #001f3d;
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+      color: #FFF;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="../home_images/logo2_transparent_white.png" alt="Logo" width="300">
+    <h1>WBI</h1>
+  </header>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="#">WBI</a>
+    <!--- <a href="#">ForecastNet</a> --->
+    <!--- <a href="#">Contact</a> --->
+  </nav>
+
+  <main>
+    <p>The WBI is an experimental severe weather index. Evaluation of its utility compared to SIGTOR and SCP is ongoing. Do not use WBI to make any decisions. WxSight is not reponsible for any damage due to decisions made based on our products.</p>
+    {{ fig }}
+  </main>
+</body>
+</html>
