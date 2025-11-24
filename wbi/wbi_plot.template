@@ -6,7 +6,7 @@
   <title>Weather Sight</title>
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="home_images/logo2.png" />
+  <link rel="icon" type="image/png" href="../home_images/logo2.png" />
   <style>
     body {
       margin: 0;
