@@ -39,8 +39,8 @@
 
   <nav>
     <a href="../index.html">Home</a>
-    <a href="#">Historical WBI</a>
-    <!--- <a href="historical_wbi.html">ForecastNet</a> --->
+    <a href="historical_wbi.html">Historical WBI</a>
+    <!--- <a href="#">ForecastNet</a> --->
     <!--- <a href="#">Contact</a> --->
   </nav>
 
