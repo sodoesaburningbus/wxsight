@@ -45,7 +45,23 @@
   </nav>
 
   <main>
-    <p>The WBI is an experimental severe weather index. Evaluation of its utility compared to SIGTOR and SCP is ongoing. Do not use WBI to make any decisions. WxSight is not reponsible for any damage due to decisions made based on our products.</p>
+    <p>The WBI is an experimental severe weather index. Evaluation of its utility compared to SIGTOR and SCP is ongoing. Do not use WBI to make any decisions. WxSight is not reponsible for any damage due to decisions made based on our products. The table below indicates when tornadoes are possible. These ranges are very approximate.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>0-20</th>
+          <th>20-40</th>
+          <th>>40</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tornadoes Unlikely</td>
+          <td>QLCS tornadoes possible.</td>
+          <td>Supercell tornadoes possible.</td>
+        </tr>
+      </tbody>
+    </table>
     {{ fig }}
   </main>
 </body>
