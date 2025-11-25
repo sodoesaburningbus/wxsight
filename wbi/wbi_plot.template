@@ -46,24 +46,24 @@
 
   <main>
     <p>The WBI is an experimental severe weather index. Evaluation of its utility compared to SIGTOR and SCP is ongoing. Do not use WBI to make any decisions. WxSight is not reponsible for any damage due to decisions made based on our products. The table below indicates when tornadoes are possible. These ranges are very approximate.</p>
-    <table style="border-collapse: collapse; text-align: center;">
+    <table style="border-collapse: collapse; text-align: center; border: 1px solid #000; margin: 0 auto;">
       <thead>
         <tr>
           <th style="border-right: 1px solid #000; padding: 4px;">0-20</th>
           <th style="border-right: 1px solid #000; padding: 4px;">20-40</th>
-          <th style="border-right: 1px solid #000; padding: 4px;">40-60</th>
+          <th style="border-right: 1px solid #000; padding: 4px;">>40</th>
           <th style="padding: 4px;">>60</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td style="border-right: 1px solid #000; padding: 4px;">No tornados.</td>
-          <td style="border-right: 1px solid #000; padding: 4px;">QLCS tornado possible.</td>
-          <td style="border-right: 1px solid #000; padding: 4px;">Supercell tornado possible.</td>
-          <td style="padding: 4px;">Watch out.</td>
+          <td style="border-right: 1px solid #000; padding: 4px;">Tornado unlikely</td>
+          <td style="border-right: 1px solid #000; padding: 4px;">QLCS tornado possible</td>
+          <td style="border-right: 1px solid #000; padding: 4px;">Supercell tornado possible</td>
         </tr>
       </tbody>
     </table>
+
     {{ fig }}
   </main>
 </body>
