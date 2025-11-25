@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Sight</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../home_images/logo2.png" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #001f3d;
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+      color: #FFF;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="../home_images/logo2_transparent_white.png" alt="Logo" width="300">
+    <h1>Historical WBI Examples</h1>
+  </header>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="#">WBI</a>
+    <!--- <a href="#">ForecastNet</a> --->
+    <!--- <a href="#">Contact</a> --->
+  </nav>
+
+  <main>
+    <h2>April 2nd, 2017</h2>
+    {{ fig0 }}
+    <br>
+    <h2>May 18th, 2017</h2>
+    {{ fig1 }}
+    <br>
+    <h2>March 25th, 2021</h2>
+    {{ fig2 }}
+    <br>
+    <h2>March 31st, 2023</h2>
+    {{ fig3 }}
+  </main>
+</body>
+</html>
