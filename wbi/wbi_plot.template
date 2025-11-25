@@ -52,7 +52,6 @@
           <th style="border-right: 1px solid #000; padding: 4px;">0-20</th>
           <th style="border-right: 1px solid #000; padding: 4px;">20-40</th>
           <th style="border-right: 1px solid #000; padding: 4px;">>40</th>
-          <th style="padding: 4px;">>60</th>
         </tr>
       </thead>
       <tbody>
