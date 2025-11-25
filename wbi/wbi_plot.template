@@ -63,7 +63,9 @@
       </tbody>
     </table>
 
-    {{ fig }}
+    {{ fig1 }}
+    <br>
+    {{ fig2 }}
   </main>
 </body>
 </html>
